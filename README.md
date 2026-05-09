@@ -142,22 +142,3 @@ go run cmd/main.go
 ```
 
 ---
-
-## Go Concepts Cheat Sheet (For Rust/C++ Background)
-
-| Rust / C++                    | Go Equivalent             | Notes |
-|-------------------------------|---------------------------|-------|
-| `fn main()`                   | `func main()`             | Same idea |
-| `Result<T, E>`                | `(T, error)`              | Go returns errors as values |
-| `Vec<T>`                      | `[]T` (slice)             | Dynamically sized, heap-allocated |
-| `Box<T>`                      | `*T` (pointer)            | Heap allocation, but no ownership tracking |
-| `struct Foo { ... }`          | `type Foo struct { ... }` | Same concept |
-| `impl Foo { fn bar() }`       | `func (f Foo) bar()`      | Method syntax differs |
-| `match` / `enum`              | `switch` / `const` type   | Go enums are typed constants |
-| `mod foo; use foo::Bar`       | `import "path/to/foo"`    | Imports use filesystem paths |
-| `pub(crate)`                  | `internal/` directory     | Enforced by the compiler |
-| `?` operator                  | `if err != nil { return }`| Explicit error propagation |
-| `cargo.toml`                  | `go.mod`                  | Module manifest |
-| `cargo.lock`                  | `go.sum`                  | Dependency checksums |
-
----
