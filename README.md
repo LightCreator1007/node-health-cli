@@ -3,6 +3,8 @@
 A Go CLI tool that connects to your local Kubernetes cluster and renders a
 color-coded node health dashboard in the terminal.
 
+<img width="1638" height="607" alt="Screenshot From 2026-05-09 13-04-36" src="https://github.com/user-attachments/assets/80447534-ffd2-44f5-8374-2c0fc0f3cc0b" />
+
 
 ## Project Structure
 
