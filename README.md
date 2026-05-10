@@ -81,7 +81,8 @@ go build -o node-health-cli cmd/main.go
 
 To align with modern Cloud Native monitoring standards, `node-health-cli` runs as a continuous daemon and exposes internal evaluation metrics. These metrics are scraped by Prometheus and visualized in Grafana, transforming the CLI into a real-time observability pipeline.
 
-<img width="1638" alt="Grafana Dashboard showing Node Health" src="YOUR_GRAFANA_SCREENSHOT_LINK_HERE" />
+<img width="1917" height="932" alt="Screenshot From 2026-05-10 11-18-31" src="https://github.com/user-attachments/assets/b0ea9b68-c4f4-41ea-a929-93814a75c808" />
+
 
 ### Exported Metrics
 The application exposes a `/metrics` endpoint on port `5000` containing standard Go runtime metrics, alongside the following custom Kubernetes tracking metrics:
